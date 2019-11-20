@@ -134,8 +134,8 @@ function selectBreedsStartingWith(letter) {
 
 function addBreedSelectListener() {
   let breedDropdown = document.querySelector('#breed-dropdown');
-  breedDropdown.addEventListener('change', function (event) {
-    selectBreedsStartingWith(event.target.value);
+  breedDropdown.addEventListener('change', function (e) {
+    selectBreedsStartingWith(e.target.value);
   });
 }
 
@@ -148,6 +148,6 @@ function addBreed(breed) {
   li.addEventListener('click', updateColor);
 }
 
-function updateColor(event) {
-  event.target.style.color = 'pink';
+function updateColor(e) {
+  e.target.style.color = 'pink';
 }
