@@ -74,6 +74,8 @@
 //     //     updateBreedList(breeds.filter(breed => breed.startsWith(letter)));
 //     // }
 
+  //challeng 4 doesn't work!
+
 //     init();
 // })
 
